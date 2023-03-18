@@ -3,7 +3,7 @@ Official implementation for the CVPR23 paper: Dynamic Coarse-to-Fine Learning fo
 Coming soon!
 
 ## Introduction
-DCFL is a learning framework for detecting on oriented tiny objects.
+DCFL is a learning framework for detecting oriented tiny objects.
 
 **Abstract**: To be finished.
 
