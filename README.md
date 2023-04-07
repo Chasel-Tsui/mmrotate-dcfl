@@ -53,6 +53,7 @@ DOTA-v2.0
 |DCFL| ResNet101 (1024,1024,200) | **52.54** | le135  |   1x    |  Flipping   |     2      |     [dcfl_r101_dota2]()      | - |
 
 ## Visualization
+Predictions of the RetinaNet-O are shown in the first row, predictions of the DCFL are shown in the second row. Note that the green box denotes the True Positive, the red box denotes the False Negative and the blue box denotes the False Positive predictions.
 ![demo_images](figures/vis.png)
 
 ## Citation
