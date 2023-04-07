@@ -59,7 +59,7 @@ Predictions of the RetinaNet-O are shown in the first row, predictions of the DC
 ## Citation
 If you find this work helpful, please consider citing:
 ```bibtex
-@inproceedings{xu2022rfla,
+@inproceedings{xu2023dcfl,
   title={Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection},
   author={Xu, Chang and Ding, Jian and Wang, Jinwang and Yang, Wen and Yu, Huai and Yu, Lei and Xia, Gui-Song},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
