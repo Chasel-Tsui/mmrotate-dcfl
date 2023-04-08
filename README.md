@@ -35,22 +35,22 @@ DOTA-v1.0
 
 | Method |         Backbone         | AP50  | AP75  | mAP | Angle | lr schd | Aug  | Batch Size |                           Configs                          |  
 | :-----: | :----------------------: | :---: | ----- | :---: | :-----: | :--: | :-------: |:-----:| :----------------------------------------------------------: | 
-|RetinaNet-O| ResNet50 (1024,1024,200) | 69.17 | 36.71 | 39.33| le135  |   1x    |  Flipping   |     2      | [retinanet_obb_r50_dota1]() | 
-|R3Det| ResNet50 (1024,1024,200) | 70.18 | 35.54 | 37.73| oc  |   1x    |  Flipping   |     2      | [r3det_oc_r50_dota1]() |
-|ATSS-O| ResNet50 (1024,1024,200) | 73.12 | 43.66 | 43.04| le135  |   1x    |  Flipping   |     2      | [atss_le135_r50_dota1]() |
-|S2A-Net| ResNet50 (1024,1024,200) | 74.12 | 43.14 | 42.33| le90  |   1x    |  Flipping   |     2      | [s2a_le90_r50_dota1]() | 
-|DCFL| ResNet50 (1024,1024,200) | **74.26** | **47.55** | **45.07** | le135  |   1x    |  Flipping   |     2      |     [dcfl_r50_dota1]()      | 
+|RetinaNet-O| ResNet50 (1024,1024,200) | 69.17 | 36.71 | 39.33| le135  |   1x    |  Flipping   |     2      | [retinanet_obb_r50_dota1](configs/baselines/retinanet_obb_r50_dota1.py) | 
+|R3Det| ResNet50 (1024,1024,200) | 70.18 | 35.54 | 37.73| oc  |   1x    |  Flipping   |     2      | [r3det_oc_r50_dota1](configs/baselines/r3det_oc_r50_dota1.py) |
+|ATSS-O| ResNet50 (1024,1024,200) | 73.12 | 43.66 | 43.04| le135  |   1x    |  Flipping   |     2      | [atss_le135_r50_dota1](configs/baselines/atss_le135_r50_dota1.py) |
+|S2A-Net| ResNet50 (1024,1024,200) | 74.12 | 43.14 | 42.33| le90  |   1x    |  Flipping   |     2      | [s2a_le90_r50_dota1](configs/baselines/s2a_le90_r50_dota1.py) | 
+|DCFL| ResNet50 (1024,1024,200) | **74.26** | **47.55** | **45.07** | le135  |   1x    |  Flipping   |     2      |     [dcfl_r50_dota1](configs/dcfl/dotav1_test_dcfl_r50_1x.py)      | 
 
 DOTA-v2.0
 
 | Method |         Backbone         | AP50  |  Angle | lr schd | Aug  | Batch Size |                           Configs                          | Speed |
 | :-----: | :----------------------: | :---: | :-----: | :--: | :-------: |:-----:| :----------------------------------------------------------: | :--: |
-|RetinaNet-O| ResNet50 (1024,1024,200) | 46.68 |  le135  |   1x    |  Flipping   |     2      | [retinanet_obb_r50_dota2]() | 20.8 FPS|
-|R3Det w/ KLD| ResNet50 (1024,1024,200) | 47.26 |  le135  |   1x    |  Flipping   |     2      | [r3det_oc_r50_dota2]() | 16.2 FPS |
-|ATSS-O| ResNet50 (1024,1024,200) | 49.57 |  le135  |   1x    |  Flipping   |     2      | [atss_le135_r50_dota2]() | - |
-|S2A-Net| ResNet50 (1024,1024,200) | 49.86 |  le135  |   1x    |  Flipping   |     2      | [s2a_le135_r50_dota2]() | 18.9 FPS|
-|DCFL| ResNet50 (1024,1024,200) | 51.57 | le135  |   1x    |  Flipping   |     2      |     [dcfl_r50_dota2]()      | 20.9 FPS |
-|DCFL| ResNet101 (1024,1024,200) | **52.54** | le135  |   1x    |  Flipping   |     2      |     [dcfl_r101_dota2]()      | - |
+|RetinaNet-O| ResNet50 (1024,1024,200) | 46.68 |  le135  |   1x    |  Flipping   |     2      | [retinanet_obb_r50_dota2](configs/baselines/retinanet_le135_r50_dota2.py) | 20.8 FPS|
+|R3Det w/ KLD| ResNet50 (1024,1024,200) | 47.26 |  le135  |   1x    |  Flipping   |     2      | [r3det_le135_r50_dota2](configs/baselines/r3det_le135_r50_dota2.py) | 16.2 FPS |
+|ATSS-O| ResNet50 (1024,1024,200) | 49.57 |  le135  |   1x    |  Flipping   |     2      | [atss_le135_r50_dota2](configs/baselines/atss_le135_r50_dota2.py) | - |
+|S2A-Net| ResNet50 (1024,1024,200) | 49.86 |  le135  |   1x    |  Flipping   |     2      | [s2a_le135_r50_dota2](configs/baselines/s2a_le135_r50_dota2.py) | 18.9 FPS|
+|DCFL| ResNet50 (1024,1024,200) | 51.57 | le135  |   1x    |  Flipping   |     2      |     [dcfl_r50_dota2](configs/dcfl/dotav2_test_dcfl_r50_1x.py)      | 20.9 FPS |
+|DCFL| ResNet101 (1024,1024,200) | **52.54** | le135  |   1x    |  Flipping   |     2      |     [dcfl_r101_dota2](configs/dcfl/dotav2_test_dcfl_r101_1x.py)      | - |
 
 ## Visualization
 Predictions of the RetinaNet-O are shown in the first row, predictions of the DCFL are shown in the second row. Note that the green box denotes the True Positive, the red box denotes the False Negative and the blue box denotes the False Positive predictions.

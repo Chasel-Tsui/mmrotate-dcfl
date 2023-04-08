@@ -1,5 +1,5 @@
 _base_ = [
-    '../rotated_retinanet/rotated_retinanet_obb_r50_fpn_1x_dotav1_test_le135.py'
+    '../rotated_retinanet/rotated_retinanet_obb_r50_fpn_1x_dotav2_test_le135.py'
 ]
 
 angle_version = 'le135'
