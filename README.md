@@ -1,6 +1,5 @@
 # mmrotate-dcfl
-Official implementation for the CVPR23 paper: Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection.
-Coming soon!
+Official implementation for the CVPR23 paper: Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection. [arxiv](https://arxiv.org/abs/2304.08876)
 
 ## Introduction
 DCFL is a learning framework for detecting oriented tiny objects.
