@@ -30,15 +30,6 @@ python setup.py develop
 
 ## Main Results
 
-DOTA-v1.0
-
-| Method |         Backbone         | AP50  | AP75  | mAP | Angle | lr schd | Aug  | Batch Size |                           Configs                          |  
-| :-----: | :----------------------: | :---: | ----- | :---: | :-----: | :--: | :-------: |:-----:| :----------------------------------------------------------: | 
-|RetinaNet-O| ResNet50 (1024,1024,200) | 69.17 | 36.71 | 39.33| le135  |   1x    |  Flipping   |     2      | [retinanet_obb_r50_dota1](configs/baselines/retinanet_obb_r50_dota1.py) | 
-|R3Det| ResNet50 (1024,1024,200) | 70.18 | 35.54 | 37.73| oc  |   1x    |  Flipping   |     2      | [r3det_oc_r50_dota1](configs/baselines/r3det_oc_r50_dota1.py) |
-|ATSS-O| ResNet50 (1024,1024,200) | 73.12 | 43.66 | 43.04| le135  |   1x    |  Flipping   |     2      | [atss_le135_r50_dota1](configs/baselines/atss_le135_r50_dota1.py) |
-|S2A-Net| ResNet50 (1024,1024,200) | 74.12 | 43.14 | 42.33| le90  |   1x    |  Flipping   |     2      | [s2a_le90_r50_dota1](configs/baselines/s2a_le90_r50_dota1.py) | 
-|DCFL| ResNet50 (1024,1024,200) | **74.26** | **47.55** | **45.07** | le135  |   1x    |  Flipping   |     2      |     [dcfl_r50_dota1](configs/dcfl/dotav1_test_dcfl_r50_1x.py)      | 
 
 DOTA-v2.0
 
